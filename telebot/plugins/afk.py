@@ -43,7 +43,7 @@ afk_time = None
 last_afk_message = {}
 afk_start = {}
 BOTLOG = True
-CUSTOM_AFK = Var.CUSTOM_AFK if Var.CUSTOM_AFK else "I am currently unavailable!"
+CUSTOM_AFK = Var.CUSTOM_AFK if Var.CUSTOM_AFK else "Shashank sur iz offline plz wait"
 botname = Var.TG_BOT_USER_NAME_BF_HER
 if botname.startswith("@"):
     MYBOT = botname
