@@ -85,9 +85,9 @@ async def start_all(event):
                                   caption=startotherena,
                                   buttons=[
                                       [Button.url(
-                                          "TeleBot", url="https://github.com/xditya/TeleBot")],
+                                          "White DeviL", url="https://github.com/deviilboi/TeleBot")],
                                       [Button.inline(
-                                          "Whats this?", data="telebot")]
+                                          "Whats this?", data="White Devil")]
                                   ]
                                   )
         else:
@@ -95,9 +95,9 @@ async def start_all(event):
                                      startotherena,
                                      buttons=[
                                          [Button.url(
-                                             "TeleBot", url="https://github.com/xditya/TeleBot")],
+                                             "White DeviL", url="https://github.com/deviilboi/TeleBot")],
                                          [Button.inline(
-                                             "Whats this?", data="telebot")]
+                                             "Whats this?", data="White Devil")]
                                      ]
                                      )
 
@@ -115,9 +115,9 @@ async def owner(event):
                                   Button.inline(
                                      "Stats ⚙️", data="stats")],
                                  [Button.inline("Broadcast",
-                                                data="telebroad")],
+                                                data="Devilbroad")],
                                  [Button.url("Support",
-                                             url="https://t.me/TeleBotSupport")]
+                                             url="https://t.me/WhiteDevilUserBoT")]
                              ])
 
 
@@ -181,10 +181,10 @@ async def settings(event):
 async def settings(event):
     await event.edit("Browse through the available options:",
                      buttons=[
-                         [(Button.url("Repository", url="https://github.com/xditya/TeleBot")),
+                         [(Button.url("Repository", url="https://github.com/deviilboi/TeleBot")),
                           (Button.url("Deploy", url="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2Fxditya%2FTeleBot%2F&template=https%3A%2F%2Fgithub.com%2Fxditya%2FTeleBot"))],
                          [Button.url("Support",
-                                     url="https://t.me/TeleBotSupport")]
+                                     url="https://t.me/WhiteDevilUserBoT")]
                      ])
 
 
